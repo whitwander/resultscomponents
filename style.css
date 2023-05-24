@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding:35px 68px;
+    border-radius: 30px;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 380px;
+}
+
+#sumario {
+    margin-left: -200px;
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+    width: 300px;    
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.img {
+    margin:0 5px;
+    position: relative;
+}
+
+.botão {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botão:hover {
+    background-image:none;
+    background-color: darkblue;
+}
+
+.final {
+    width: 150px;
+    height: 150px;
+    border: 1px transparent; 
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2px;
+}
+
+#cor {
+    color: white;
+}
+
+#numero{
+    color:hsl(241, 100%, 89%);
+    margin-left: 110px;
+    font-size: 17px
+}
+#numero1 {
+    color:hsl(241, 100%, 89%);
+    margin-left: 100px;
+    font-size: 17px
+}
+
+#numero2 {
+    color:hsl(241, 100%, 89%);
+    margin-left: 118px;
+    font-size: 17px
+}
+
+#numero3 {
+    color:hsl(241, 100%, 89%);
+    margin-left: 122px;
+    font-size: 17px    
+}
+
+
+
+
