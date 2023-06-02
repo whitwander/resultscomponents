@@ -1,68 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
 
-* {
-    font-family: 'Hanken Grotesk', sans-serif;
+:root {
+    --branco-claro: hsl(241, 100%, 89%);
+
 }
 
-.tudo {
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: 200px;
-
 }
 
 .result {
+    width: 340px;
+    height: 470px;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 200px;
     justify-content: center;
     align-items: center;
-    padding:35px 68px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
-    color: hsl(241, 100%, 89%);
+    color: var(--branco-claro);
     font-size: 18px;
+    gap: 24px;
+}
+
+.result h1{
+    color: var(--branco-claro);
+    margin-top:;
+    font-size: 25px;
+}
+
+.final {
+    width: 180px;
+    height: 180px;
+    border: 1px transparent; 
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.final h2 {
+    font-size: 55px;
+    color: white;
+}
+
+.final h3 {
+    font-size: 17px;
+    color: rgb(167, 171, 173);
+}
+
+.result h4 {
+    color: white;
+    font-size: 29px;
+}  
+
+.result p {
+    padding: 0px 50px;
+    font-size: 17px;
 }
 
 .summary {
+    width: 350px;
+    height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 380px;
+    gap: 40px;
 }
 
-#sumario {
-    margin-left: -200px;
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.nome {
+    gap: 20px;
+}
+
+.detalhes {
+
 }
 
 .reaction {
-    display: flex;
-    align-items: center;
-    color: hsl(0, 100%, 67%);
-    width: 300px;    
+    color: hsl(0, 100%, 67%); 
+    
 }
 
 .memory {
     color: hsl(39, 100%, 56%);
-    display: flex;
-    width: 300px;
-    align-items: center;
 }
 
 .verbal {
     color: hsl(166, 100%, 37%);
-    display: flex;
-    width: 300px;
-    align-items: center;
 }
 
 .visual {
     color: hsl(234, 85%, 45%);
-    display: flex;
-    width: 300px;
-    align-items: center;
 }
 
 .img {
@@ -71,15 +116,12 @@
 }
 
 .botão {
-    width: 250px;
-    height: 50px;
-    margin-top: 20px;
+    margin-top: 2em;
     border-radius: 30px;
     background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+    padding: 0.7em 5em;
+    text-decoration: none;
     font-size: 18px;
 }
 
@@ -87,47 +129,4 @@
     background-image:none;
     background-color: darkblue;
 }
-
-.final {
-    width: 150px;
-    height: 150px;
-    border: 1px transparent; 
-    border-radius: 50%;
-    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    line-height: 2px;
-}
-
-#cor {
-    color: white;
-}
-
-#numero{
-    color:hsl(241, 100%, 89%);
-    margin-left: 110px;
-    font-size: 17px
-}
-#numero1 {
-    color:hsl(241, 100%, 89%);
-    margin-left: 100px;
-    font-size: 17px
-}
-
-#numero2 {
-    color:hsl(241, 100%, 89%);
-    margin-left: 118px;
-    font-size: 17px
-}
-
-#numero3 {
-    color:hsl(241, 100%, 89%);
-    margin-left: 122px;
-    font-size: 17px    
-}
-
-
-
 
